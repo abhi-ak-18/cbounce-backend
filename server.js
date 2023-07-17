@@ -8,7 +8,7 @@ const cors = require ('cors');
 
 const corsOptions = {
   credentials: true,
-  origin: ["http://localhost:3000"],
+  origin: [`https://backendcb.onrender.com/`${port}],
 };
 
 const app = express();
